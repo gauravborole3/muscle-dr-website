@@ -147,7 +147,7 @@ const handleSubmit = (e) => {
                   whileHover={{ scale: 1.05, boxShadow: '0 8px 20px rgba(25, 103, 210, 0.15)' }}
                 >
                   <h3>📞 Phone</h3>
-                  <p><a href="tel:+91-7898446376" style={{ color: '#1967d2', textDecoration: 'none' }}>+91-7898446376</a></p>
+                  <p><a href="tel:+91-6266228811" style={{ color: '#1967d2', textDecoration: 'none' }}>+91-6266228811</a></p>
                 </motion.div>
                 <motion.div 
                   className="contact-item" 
@@ -164,8 +164,10 @@ const handleSubmit = (e) => {
                   variants={itemVariants}
                   whileHover={{ scale: 1.05, boxShadow: '0 8px 20px rgba(25, 103, 210, 0.15)' }}
                 >
-                  <h3>🕒 Hours</h3>
-                  <p>Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 4:00 PM<br />Sunday: Closed</p>
+                  <h3>🕒 Clinic Visiting Hours </h3>
+                  <p>Monday - Saturday: 9:00 AM - 6:00 PM<br />Sunday: Closed </p> 
+                  <h3>Online/Virtual Consultation </h3>
+                  <p>24x7</p>
                 </motion.div>
               </motion.div>
             </motion.div>
