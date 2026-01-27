@@ -185,7 +185,9 @@ function Home() {
             </motion.div>
           ))}
         </motion.div>
+        
       </motion.section>
+      
 
       {/* WHY CHOOSE US - Energetic Section */}
       <motion.section 
@@ -243,6 +245,7 @@ function Home() {
             </motion.div>
           </motion.div>
         </div>
+        
       </motion.section>
                 
       {/* TESTIMONIALS - Success Stories */}  

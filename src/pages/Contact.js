@@ -150,7 +150,7 @@ const handleSubmit = (e) => {
                   <p><a href="tel:+91-6266228811" style={{ color: '#1967d2', textDecoration: 'none' }}>+91-6266228811</a></p>
                 </motion.div>
                 <motion.div 
-                  className="contact-item" 
+                  className="contact-item-email" 
                   style={{ marginTop: '1.5rem' }}
                   variants={itemVariants}
                   whileHover={{ scale: 1.05, boxShadow: '0 8px 20px rgba(25, 103, 210, 0.15)' }}
@@ -158,6 +158,7 @@ const handleSubmit = (e) => {
                   <h3>✉️ Email</h3>
                   <p><a href="mailto:themuscledr@gmail.com" style={{ color: '#1967d2', textDecoration: 'none' }}>themuscledr@gmail.com</a></p>
                 </motion.div>
+
                 <motion.div 
                   className="contact-item" 
                   style={{ marginTop: '1.5rem' }}
@@ -166,7 +167,7 @@ const handleSubmit = (e) => {
                 >
                   <h3>🕒 Clinic Visiting Hours </h3>
                   <p>Monday - Saturday: 9:00 AM - 6:00 PM<br />Sunday: Closed </p> 
-                  <h3>Online/Virtual Consultation </h3>
+                  <h4>Online/Virtual Consultation </h4>
                   <p>24x7</p>
                 </motion.div>
               </motion.div>

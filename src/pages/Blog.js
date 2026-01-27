@@ -33,7 +33,7 @@ function Blog() {
       category: 'Pain Management',
       excerpt: 'Back pain affects millions of people worldwide. Learn about the most common causes of back pain and how physiotherapy can help you find relief and prevent future issues.',
       date: '2024-01-20',
-      author: 'PT. Nidhish Ingle',
+      author: 'Dr. Nidhish Ingle (PT)',
       readTime: '5 min read',
       image: '📚',
     },
@@ -43,7 +43,7 @@ function Blog() {
       category: 'Sports & Recovery',
       excerpt: 'Whether you\'re a professional athlete or a weekend warrior, sports physiotherapy can improve performance and prevent injuries. Discover the key benefits and techniques used in sports PT.',
       date: '2024-01-18',
-      author: 'PT. Nidhish Ingle',
+      author: 'Dr. Nidhish Ingle (PT)',
       readTime: '6 min read',
       image: '⚽',
     },
@@ -53,70 +53,10 @@ function Blog() {
       category: 'Workplace Health',
       excerpt: 'Spending hours at a desk? Learn how proper ergonomics can prevent repetitive strain injuries like carpal tunnel syndrome. We share practical tips for a healthier workspace.',
       date: '2024-01-16',
-      author: 'PT. Nidhish Ingle',
+      author: 'Dr. Nidhish Ingle (PT)',
       readTime: '7 min read',
       image: '💻',
-    },
-    {
-      id: 4,
-      title: 'Post-Surgery Rehabilitation: What to Expect',
-      category: 'Recovery',
-      excerpt: 'After orthopedic surgery, proper rehabilitation is crucial for optimal recovery. Learn about the phases of rehabilitation and how physiotherapy accelerates your healing process.',
-      date: '2024-01-14',
-      author: 'PT. Nidhish Ingle',
-      readTime: '8 min read',
-      image: '🏥',
-    },
-    {
-      id: 5,
-      title: 'Neck Pain Relief: Exercises and Stretches You Can Do at Home',
-      category: 'Pain Management',
-      excerpt: 'Suffering from neck pain? Discover simple yet effective exercises and stretches that you can perform at home to relieve tension and improve mobility.',
-      date: '2024-01-12',
-      author: 'PT. Nidhish Ingle',
-      readTime: '5 min read',
-      image: '🧘',
-    },
-    {
-      id: 6,
-      title: 'Arthritis Management Through Physiotherapy',
-      category: 'Chronic Conditions',
-      excerpt: 'Living with arthritis doesn\'t mean limiting your activities. Learn how targeted physiotherapy exercises can reduce pain, improve flexibility, and enhance your quality of life.',
-      date: '2024-01-10',
-      author: 'PT. Nidhish Ingle',
-      readTime: '7 min read',
-      image: '💪',
-    },
-    {
-      id: 7,
-      title: 'The Role of Mobility Exercises in Injury Prevention',
-      category: 'Prevention',
-      excerpt: 'Prevention is better than cure. Explore the importance of mobility exercises in maintaining joint health and preventing common injuries in daily life and sports.',
-      date: '2024-01-08',
-      author: 'PT. Nidhish Ingle',
-      readTime: '6 min read',
-      image: '🏃',
-    },
-    {
-      id: 8,
-      title: 'Shoulder Pain: Diagnosis and Treatment Options',
-      category: 'Pain Management',
-      excerpt: 'Shoulder pain can severely impact your daily activities. Discover the various causes of shoulder pain and the most effective physiotherapy treatment options available.',
-      date: '2024-01-06',
-      author: 'PT. Nidhish Ingle',
-      readTime: '8 min read',
-      image: '🩺',
-    },
-    {
-      id: 9,
-      title: 'Running Injuries: Prevention and Treatment Guide',
-      category: 'Sports & Recovery',
-      excerpt: 'Runners often face common injuries like shin splints and runner\'s knee. Learn prevention strategies and treatment approaches to keep running strong.',
-      date: '2024-01-04',
-      author: 'PT. Nidhish Ingle',
-      readTime: '9 min read',
-      image: '🏅',
-    },
+    }
   ];
 
   const categories = ['all', ...new Set(blogPosts.map(post => post.category))];
@@ -152,7 +92,7 @@ function Blog() {
       </motion.section>
 
       {/* Category Filter Section */}
-      <motion.section 
+      {/* <motion.section 
         className="blog-filter-section"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -176,6 +116,7 @@ function Blog() {
           </div>
         </div>
       </motion.section>
+      */}
 
       {/* Blog Posts Grid */}
       <motion.section 
@@ -245,8 +186,8 @@ function Blog() {
         </div>
       </motion.section>
 
-      {/* Newsletter CTA Section */}
-      <motion.section 
+       {/* Newsletter CTA Section */}
+      {/* <motion.section 
         className="blog-newsletter-section"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -278,8 +219,8 @@ function Blog() {
               </motion.button>
             </div>
           </motion.div>
-        </div>
-      </motion.section>
+        </div> 
+      </motion.section> */}
     </motion.div>
   );
 }

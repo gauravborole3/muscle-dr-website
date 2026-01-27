@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 function BlogPost() {
   const { id } = useParams();
+  // const blogPost = blogPostsDatabase[Number(id)] || blogPostsDatabase[1];
 
   // Blog posts database
   const blogPostsDatabase = {
@@ -12,7 +13,7 @@ function BlogPost() {
       title: 'Understanding Lower Back Pain: Causes, Treatment, and Prevention',
       category: 'Pain Management',
       date: '2024-01-20',
-      author: 'PT. Nidhish Ingle',
+      author: 'Dr. Nidhish Ingle (PT)',
       readTime: '8 min read',
       image: '📚',
       excerpt: 'Lower back pain affects millions of people worldwide. Learn about the most common causes of back pain and how physiotherapy can help you find relief and prevent future issues.',
@@ -242,7 +243,7 @@ function BlogPost() {
       title: 'The Benefits of Sports Physiotherapy for Athletes',
       category: 'Sports & Recovery',
       date: '2024-01-18',
-      author: 'PT. Nidhish Ingle',
+      author: 'Dr. Nidhish Ingle (PT)',
       readTime: '6 min read',
       excerpt: 'Whether you\'re a professional athlete or a weekend warrior, sports physiotherapy can improve performance and prevent injuries.',
       content: [
@@ -306,7 +307,7 @@ function BlogPost() {
       title: 'Ergonomics at Work: Preventing Repetitive Strain Injuries',
       category: 'Workplace Health',
       date: '2024-01-16',
-      author: 'PT. Nidhish Ingle',
+      author: 'Dr. Nidhish Ingle (PT)',
       readTime: '7 min read',
       excerpt: 'Spending hours at a desk? Learn how proper ergonomics can prevent repetitive strain injuries.',
       content: [
@@ -420,8 +421,8 @@ function BlogPost() {
             ))}
           </motion.div>
         );
-      default:
-        return null;
+      // default:
+      //   return null;
     }
   };
 
@@ -461,12 +462,11 @@ function BlogPost() {
 
       {/* Blog Post Content */}
       <motion.section 
-        className="blog-post-content-section"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true, amount: 0.2 }}
-      >
+  className="blog-post-content-section"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.8 }}
+>
         <div className="blog-post-container">
           {/* Sidebar */}
           <aside className="blog-post-sidebar">
@@ -481,7 +481,7 @@ function BlogPost() {
               <h3>About the Author</h3>
               <p className="author-name">{blogPost.author}</p>
               <p className="author-bio">
-                PT. Nidhish Ingle is a licensed physiotherapist with 5+ years of experience helping patients recover from injuries and manage chronic pain through evidence-based treatment.
+                Dr. Nidhish Ingle (PT) is a licensed physiotherapist with 3+ years of experience helping patients recover from injuries and manage chronic pain through evidence-based treatment.
               </p>
               <Link to="/contact" className="btn btn-primary btn-small">
                 Book Consultation
@@ -516,7 +516,7 @@ function BlogPost() {
       </motion.section>
 
       {/* Related Posts Section */}
-      <motion.section 
+     {/* <motion.section 
         className="related-posts-section"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -574,6 +574,7 @@ function BlogPost() {
           </motion.div>
         </div>
       </motion.section>
+      */}
 
       {/* Final CTA Section */}
       <motion.section 
