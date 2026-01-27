@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "name": "Resistance Band Set",
+    "description": "Ideal for physiotherapy and muscle strengthening exercises.",
+    "price": "1,699",
+    "image": "/products/resistance-band.jpg",
+    "rating": 4.5,
+    "affiliateLink": "https://www.decathlon.in/p/8785433/elastic-training-high-resistance-bands-set-of-3-15-25-and-35kg"
+  },
+  {
+    "id": 2,
+    "name": "Foam Roller",
+    "description": "Helps in muscle recovery and pain relief.",
+    "price": "1599",
+    "image": "/products/foam-roller.jpg",
+    "affiliateLink": "https://www.decathlon.in/p/8647291/hand-foam-massage-roller-deep-tissue-and-muscle-relief-38cm-black"
+  }
+]

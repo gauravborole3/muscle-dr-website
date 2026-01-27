@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Rajesh Kumar",
+    "condition": "Back Pain",
+    "image": "👨‍💼",
+    "text": "I suffered from chronic back pain for years. The Muscle Dr's physiotherapy treatment has changed my life. The personalized approach and professional care made all the difference.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "condition": "Neck & Shoulder Pain",
+    "image": "👩‍💼",
+    "text": "After my office job caused severe neck pain, I was skeptical about treatment. But the therapists at The Muscle Dr were amazing. I'm pain-free now and can work comfortably!",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Arjun Singh",
+    "condition": "Sports Injury",
+    "image": "👨‍🦱",
+    "text": "I had a sports injury that nearly ended my athletic career. Thanks to the expert rehabilitation program, I'm back to playing better than ever before!",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Ananya Patel",
+    "condition": "Post-Surgery Recovery",
+    "image": "👩‍🦰",
+    "text": "The post-surgery rehabilitation was smooth and effective. The therapists guided me every step of the way, and I recovered much faster than expected.",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Vikram Desai",
+    "condition": "Knee Pain",
+    "image": "👨‍🎓",
+    "text": "I couldn't climb stairs due to knee pain. After treatment at The Muscle Dr, I'm active again. Highly recommended for anyone with joint issues!",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Sneha Gupta",
+    "condition": "Headaches",
+    "image": "👩‍🔬",
+    "text": "My tension headaches were affecting my productivity. The targeted physiotherapy treatment has reduced them significantly. Thank you for giving me my life back!",
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "name": "Amit Verma",
+    "condition": "Repetitive Strain Injury",
+    "image": "👨‍💻",
+    "text": "As a programmer, RSI was killing my career. The therapists designed exercises that cured my carpal tunnel. I'm grateful for their expertise.",
+    "rating": 5
+  },
+  {
+    "id": 8,
+    "name": "Divya Iyer",
+    "condition": "Arthritis Management",
+    "image": "👵",
+    "text": "At 65, I thought arthritis pain was something I'd live with forever. The Muscle Dr proved me wrong. I'm more active and flexible than I've been in years!",
+    "rating": 5
+  }
+]
