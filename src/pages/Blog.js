@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 function Blog() {
-  const [selectedCategory, setSelectedCategory] = useState('all');
+  const [selectedCategory] = useState('all');
 
   // Animation variants
   const containerVariants = {
@@ -59,7 +59,7 @@ function Blog() {
     }
   ];
 
-  const categories = ['all', ...new Set(blogPosts.map(post => post.category))];
+  // const categories = ['all', ...new Set(blogPosts.map(post => post.category))];
 
   const filteredPosts = selectedCategory === 'all'
     ? blogPosts

@@ -421,8 +421,8 @@ function BlogPost() {
             ))}
           </motion.div>
         );
-      // default:
-      //   return null;
+      default:
+        return null;
     }
   };
 

@@ -10,7 +10,7 @@ import Products from './pages/Products';
 import useScrollToTop from './hooks/useScrollToTop';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
-import { FaInstagram, FaWhatsapp, FaLinkedin, FaFacebook } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp, FaFacebook } from 'react-icons/fa';
 
 
 
