@@ -10,7 +10,10 @@ import Products from './pages/Products';
 import useScrollToTop from './hooks/useScrollToTop';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
-import { FaInstagram, FaWhatsapp, FaFacebook } from 'react-icons/fa';
+import { FaInstagram, FaWhatsapp, FaFacebook,FaYoutube } from 'react-icons/fa';
+import Chatbot from "./components/Chatbot";
+import ShortsPage from "./pages/ShortsPage";
+
 
 
 
@@ -32,8 +35,9 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
         {/* <Route path="/glass-cards" element={<GlassmorphismDemo />} /> */}
+        <Route path="/shorts" element={<ShortsPage />} />
       </Routes>
-
+      <Chatbot />
       {/* Footer */}
       <footer className="footer">
         <p>&copy; 2024 The Muscle Dr. All rights reserved.<br/> Developed By Gaurav Borole</p>
@@ -63,6 +67,14 @@ function App() {
       aria-label="LinkedIn"
     >
       <FaFacebook />
+    </a>
+    <a
+      href="https://www.youtube.com/@TheMuscleDr"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Youtube"
+    >
+      <FaYoutube />
     </a>
   </div>
       </footer>

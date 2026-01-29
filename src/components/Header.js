@@ -38,8 +38,7 @@ function Header() {
           <span className={`hamburger-line ${menuOpen ? 'active' : ''}`}></span>
         </button>
 
-        {/* Navigation Menu */}
-        <nav className={`nav-menu ${menuOpen ? 'active' : ''}`}>
+         <nav className={`nav-menu ${menuOpen ? 'active' : ''}`}>
           <Link 
             to="/" 
             className={`nav-link ${isActive('/') ? 'active' : ''}`}
@@ -69,6 +68,13 @@ function Header() {
             Blog
           </Link>
           <Link 
+            to="/shorts" 
+            className={`nav-link ${isActive('/shorts') ? 'active' : ''}`}
+            onClick={closeMenu}
+          >
+            Top Picks
+          </Link>
+          <Link 
             to="/testimonials" 
             className={`nav-link ${isActive('/testimonials') ? 'active' : ''}`}
             onClick={closeMenu}
@@ -90,6 +96,7 @@ function Header() {
             Contact
           </Link>
         </nav>
+        
       </div>
     </header>
   );
