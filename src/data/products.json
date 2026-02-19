@@ -1,19 +1,170 @@
 [
   {
     "id": 1,
-    "name": "Resistance Band Set",
-    "description": "Ideal for physiotherapy and muscle strengthening exercises.",
-    "price": "1,699",
-    "image": "/products/resistance-band.jpg",
-    "rating": 4.5,
-    "affiliateLink": "https://www.decathlon.in/p/8785433/elastic-training-high-resistance-bands-set-of-3-15-25-and-35kg"
+    "name": "Lifelong PVC Hex Fixed Dumbbells Pack of 2 (1kg*2)",
+    "description": "Set of 2 PVC hex dumbbells for resistance training; each dumbbell weighs 1 kg *2 total 2kg weight Made in India",
+    "price": "169",
+    "image": "/products/PVC Hex Fixed Dumbbells.jpg",
+    "affiliateLink": "https://amzn.to/3OPvL0E"
   },
   {
     "id": 2,
+    "name": "Boldfit Pull Up Bars For Home Workout",
+    "description": "PULL UP ROD FOR HOME: This Pull up bar length is adjustable length and this pull up bars comes with anti-slip rubber grip to provide strength to hold rod firm while doing exercise. Hanging bar is attached with locking mechanism to provide total security and protection while home workout. Bar is easy to install with tightening rod on both ends without screw and drilling. Doorway pullup bar at home don't require much space also so, easy to store",
+    "price": "1699",
+    "image": "/products/Pull Up Bars.jpg",
+    "affiliateLink": "https://amzn.to/4aInbs8"
+  },
+  {
+    "id": 3,
+    "name": "WiseLife Pro Yoga Block | Yoga Brick",
+    "description": "High Density Premium TPE Foam Material, Soft Surface, Triple Layer for Optimum Balance, Support & Cushion Extra Large",
+    "price": "845",
+    "image": "/products/yoga block.jpg",
+    "affiliateLink": "https://amzn.to/4rW5KuY"
+  },
+  {
+    "id": 4,
+    "name": "FirstFit Hand Grip Strengthener and Forearm Strengthener ",
+    "description": " Adjustable Resistance 22-220Lbs with Digital Counter for Strength Muscle Building and Injury Recover For Athletes Sports",
+    "price": "375",
+    "image": "/products/handgrip.jpg",
+    "affiliateLink": "https://amzn.to/4kECaYq"
+  },
+  {
+    "id": 5,
+    "name": "Strauss Natural Latex Resistance Loop Bands",
+    "description": "(Pack of 5) Useful for HIPS, Arms & Legs Workouts. Tear Resistant & Anti-Slip",
+    "price": "357",
+    "image": "/products/Theraband for Fitness.jpg",
+    "affiliateLink": "https://amzn.to/3NZiUJ1"
+  },
+  {
+    "id": 6,
+    "name": "Heavy Resistance Band",
+    "description": "Heavy Resistance Band for Workout Set Exercise & Stretching Pull Up Bands for Home Exercise for Gym Men & Women Loop Bands Toning Bands Resistance Band Yellow (3-7 Kg)",
+    "price": "179",
+    "image": "/products/Resistance Band.jpg",
+    "affiliateLink": "https://amzn.to/4rP5Nso"
+  },
+  {
+    "id": 7,
     "name": "Foam Roller",
-    "description": "Helps in muscle recovery and pain relief.",
-    "price": "1599",
-    "image": "/products/foam-roller.jpg",
-    "affiliateLink": "https://www.decathlon.in/p/8647291/hand-foam-massage-roller-deep-tissue-and-muscle-relief-38cm-black"
+    "description": "Strauss High Density Foam Roller | Deep Tissue Massage Roller for Knee Exercise, Muscles Recovery & Physiotherapy | Home Gym Fitness Equipment for Full Body Relaxation and Flexibility | 30cm (Black)",
+    "price": "636",
+    "image": "/products/Foam Roller.jpg",
+    "affiliateLink": "https://amzn.to/4aTZxdk"
+  },
+  {
+    "id": 8,
+    "name": "Fitness Ball",
+    "description": "Mini Gym Ball | Size 25Cm,Blue",
+    "price": "249",
+    "image": "/products/Fitness Ball.jpg",
+    "affiliateLink": "https://amzn.to/4tJhFhm"
+  },
+  {
+    "id": 9,
+    "name": "Weight Scale & Body Fat Analyzer",
+    "description": "Dr Trust USA 526 Legend BMI Weight Scale & Body Fat Analyzer with IOS/Android App Sync,14 Essential Composition Metrics Weighing Machine for Home Health Monitoring (Black)",
+    "price": "798",
+    "image": "/products/Weight Scale.jpg",
+    "affiliateLink": "https://amzn.to/4aXtWre"
+  },
+  {
+    "id": 10,
+    "name": "Wrist/Ankle Weights",
+    "description": "Wrist/Ankle Weights 2 kg (1 kg Each x 2 pc), rubber, black (1 kg pair)",
+    "price": "199",
+    "image": "/products/Wrist-Ankle Weights.jpg",
+    "affiliateLink": "https://amzn.to/3OopWHx"
+  },
+  {
+    "id": 11,
+    "name": "Yoga Mat + Sleek Yoga Strap",
+    "description": "True Alignment Yoga Mat + Sleek Yoga Strap For Men And Women (Probalance Tpe Material 6Mm Extra Thick Extra Long Extra Wide) (Emerald)",
+    "price": "1159",
+    "image": "/products/Yoga mat.jpg",
+    "affiliateLink": "https://amzn.to/4qGHKuQ"
+  },
+  {
+    "id": 12,
+    "name": "Hand Grip Strengthener",
+    "description": "Hand Grip Strengthener - Finger Exerciser and Finger Stretcher - Grip Strength Trainer for Hand Therapy, Rock Climbing - Color(Violet, Purple, Black) - Professional Size",
+    "price": "292",
+    "image": "/products/Hand Grip Strengthener.jpg",
+    "affiliateLink": "https://amzn.to/4aSZMFz"
+  },
+  {
+    "id": 13,
+    "name": "Gun Massager",
+    "description": "Dynamo 1034 Percussion Gun Massager for Full Body Pain Relief, Rechargeable Cordless Deep Tissue Massage Machine for Legs & Arms, Use at Home, Gym & During Travel",
+    "price": "982",
+    "image": "/products/Gun Massager.jpg",
+    "affiliateLink": "https://amzn.to/3Oos0zd"
+  },
+  {
+    "id": 14,
+    "name": "Electric Heating Belt",
+    "description": "Electric Heating Belt | Heating Pad For Back, Shoulder, Knee, Ankle, Period Pain Relief | 4 Layer Insulation For Safe Usage | 3 Heat Settings | Auto Shut Off | 1 Unit, Grey",
+    "price": "783",
+    "image": "/products/Electric Heating Belt.jpg",
+    "affiliateLink": "https://amzn.to/4qEK2Lb"
+  },
+  {
+    "id": 15,
+    "name": "Sacral Belt",
+    "description": "Tynor Lumbo Sacral Belt provides perfect back support for general use. Its Flexible back splints takes the body shape for comfortable immobilization which relief the immediate lower back pain. More effective results in more relaxation",
+    "price": "703",
+    "image": "/products/Sacral Belt.jpg",
+    "affiliateLink": "https://amzn.to/4aWLBiL"
+  },
+  {
+    "id": 16,
+    "name": "Ankle Wrap Sleek Elastic",
+    "description": "Ankle Wrap Sleek Elastic, Grey, Universal, 1 Unit",
+    "price": "212",
+    "image": "/products/Ankle Wrap Sleek Elastic.jpg",
+    "affiliateLink": "https://amzn.to/4s34hTT"
+  },
+  {
+    "id": 17,
+    "name": "Wrist Brace with Thumb",
+    "description": "Support for Pain Relief & Stabilization | Lightweight & Breathable Wrist Support for Arthritis, Sprains, Tendonitis, Carpal Tunnel | Universal Fit (Grey, 1 Unit)",
+    "price": "201",
+    "image": "/products/Wrist Brace.jpg",
+    "affiliateLink": "https://amzn.to/4qJmOU6"
+  },
+  {
+    "id": 18,
+    "name": "Tennis Elbow Support",
+    "description": "Elbow Support (Mild Support), Provides an Ideal Compression to the Strained Muscles of the Elbow (Black)",
+    "price": "288",
+    "image": "/products/Tennis Elbow Support.jpg",
+    "affiliateLink": "https://amzn.to/3OOH755"
+  },
+  {
+    "id": 19,
+    "name": "Hot and Cold Ice Pack",
+    "description": "Hot and Cold Ice Pack | Flexible Gel for Injuries, Pain Relief Cold Ice Gel Pack for Shoulders, Knee, Back, Neck Hot Compression Gel Pack for Pain Relief-Medium Pack of 2",
+    "price": "199",
+    "image": "/products/Hot and Cold Ice Pack.jpg",
+    "affiliateLink": "https://amzn.to/3MPHyvp"
+  },
+  {
+    "id": 20,
+    "name": "Blood Glucose Glucometer Kit",
+    "description": "Accu-Chek Active Blood Glucose Glucometer Kit With Vial Of 10 Strips, 10 Lancets And A Lancing Device Free For Accurate Blood Sugar Testing",
+    "price": "940",
+    "image": "/products/Blood Glucose Glucometer Kit.jpg",
+    "affiliateLink": "https://amzn.to/4apSuZT"
+  },
+  {
+    "id": 21,
+    "name": "Pulley with Rope and Door Strap",
+    "description": "Pulley with Rope and Door Strap, Easy to Use Exercise Equipment for Frozen Shoulder and Hand/Arm Exercise Material Nylon Plastic, Smooth Action Pulley",
+    "price": "499",
+    "image": "/products/Pulley with Rope and Door Strap.jpg",
+    "affiliateLink": "https://amzn.to/4cATdbZ"
   }
 ]

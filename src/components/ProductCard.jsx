@@ -84,7 +84,7 @@ const ProductCard = ({
           onClick={handleAffiliateClick}
           aria-label={`Buy ${name} on Decathlon`}
         >
-          Buy on Decathlon
+          Buy
           <span className="button-arrow">→</span>
         </button>
       </div>

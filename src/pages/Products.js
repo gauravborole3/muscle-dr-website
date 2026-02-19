@@ -36,7 +36,7 @@ function Products() {
         >
           <h2 className="products-title">Recommended Products</h2>
           <p className="products-subtitle">
-            Premium fitness and rehabilitation products from Decathlon to support your recovery journey
+            Premium fitness and rehabilitation products to support your recovery journey
           </p>
         </motion.div>
 
@@ -96,7 +96,7 @@ function Products() {
           viewport={{ once: true }}
         >
           <p>
-            As an affiliate of Decathlon, we earn a commission from qualifying purchases.
+            As an affiliate, we earn a commission from qualifying purchases.
             This helps support our clinic while providing you with high-quality products.
           </p>
         </motion.div>
