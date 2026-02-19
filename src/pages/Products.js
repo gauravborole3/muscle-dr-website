@@ -59,11 +59,10 @@ function Products() {
 
         {/* Products Grid */}
         <motion.div
-          className="products-grid"
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.1 }}
+              className="products-grid"
+              variants={containerVariants}
+              initial="hidden"
+              animate="visible"
         >
           {filteredProducts.length > 0 ? (
             filteredProducts.map(product => (
