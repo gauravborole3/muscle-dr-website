@@ -1,19 +1,83 @@
 import React from 'react';
+import maintenanceImage from '../assets/Maintenance.png';
 import logo from '../assets/logo.png';
 
 function Maintenance() {
   return (
-    <div className="maintenance-page" style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '40px 20px', background: '#f6f7fb' }}>
-      <div className="maintenance-card" style={{ width: '100%', maxWidth: '720px', textAlign: 'center', padding: '48px 32px', borderRadius: '24px', background: '#ffffff', boxShadow: '0 24px 80px rgba(0,0,0,0.08)' }}>
-        <img src={logo} alt="The Muscle Dr Logo" style={{ width: '125px', height: 'auto', marginBottom: '24px' }} />
-        <div style={{ marginBottom: '24px' }}>
-          <h2 style={{ fontSize: '1rem', letterSpacing: '0.28em', textTransform: 'uppercase', color: '#888', margin: '0 0 12px' }}>The Muscle Dr</h2>
-          <h1 style={{ fontSize: '2.75rem', margin: '0 0 18px' }}>Site Under Maintenance</h1>
-        </div>
-        <p style={{ fontSize: '1.05rem', lineHeight: 1.75, color: '#4a4a4a', margin: 0 }}>
-          We&rsquo;re currently updating the site for a better experience. Please check back soon.
-        </p>
+    <div
+      className="maintenance-page"
+      style={{
+        minHeight: '100vh',
+        background: '#f6f7fb',
+        position: 'relative',
+        padding: '20px'
+      }}
+    >
+      {/* Logo (Top Left) */}
+      <img
+        src={logo}
+        alt="The Muscle Dr Logo"
+        style={{
+          position: 'absolute',
+          top: '20px',
+          left: '20px',
+          width: '120px',
+          height: 'auto'
+        }}
+        className="maintenance-logo"
+      />
+
+      {/* Center Content */}
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          minHeight: '100vh'
+        }}
+      >
+        <img
+          src={maintenanceImage}
+          alt="Site Under Maintenance"
+          className="maintenance-image"
+          style={{
+            width: '100%',
+            maxWidth: '900px',
+            borderRadius: '20px',
+            boxShadow: '0 28px 90px rgba(0,0,0,0.12)'
+          }}
+        />
       </div>
+
+      {/* Responsive Styling */}
+<style>
+  {`
+    @media (max-width: 768px) {
+      .maintenance-logo {
+        width: 80px !important;
+        top: 15px !important;
+        left: 15px !important;
+      }
+
+      .maintenance-image {
+        width: 100vw !important;         /* full screen width */
+        max-width: 100vw !important;
+        margin-left: calc(-50vw + 50%);  /* remove side padding effect */
+        border-radius: 0 !important;     /* optional: edge-to-edge look */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .maintenance-logo {
+        width: 65px !important;
+      }
+
+      .maintenance-image {
+        width: 110vw !important;         /* slightly zoomed for impact */
+      }
+    }
+  `}
+</style>
     </div>
   );
 }
